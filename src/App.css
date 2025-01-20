@@ -1,0 +1,44 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa;
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card-header {
+  border-bottom: none;
+  text-transform: uppercase;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+  transition: 0.3s ease-in-out;
+}
+
+.btn-danger {
+  background: #ff4d4d;
+  border: none;
+}
+
+.btn-danger:hover {
+  background: #ff3333;
+  transition: 0.3s ease-in-out;
+}
